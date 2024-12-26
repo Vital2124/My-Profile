@@ -4,33 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <title>Vithal Garigipati - Portfolio</title>
+  <title>Vithal Garigipati - Profile</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <!-- Header Section -->
   <header>
+    <div class="header-container">
+      <a href="profile.pdf" download="Vithal_Garigipati_Profile.pdf" class="profile-download-btn">Download Profile</a>
+      <div class="header-content">
+        <h1>Vithal Garigipati</h1>
+        <p>Email: <a href="mailto:garigipati.vital@gmail.com">garigipati.vital@gmail.com</a></p>
+        <p>Phone: +91 9949899665</p>
+      </div>
+      <div class="profile-photo">
+        <img src="profile-photo.jpg" alt="Profile Photo">
+      </div>
+      <div class="scrolling-text-container">
+        <p class="scroll-text">
+          Automation Profile - Selenium WebDriver, Playwright, RFT, Java, JavaScript,RestAssured,API,DB,AI
+        </p>
+      </div>
 
-    <div class="container">
-      <h1>Vithal Garigipati</h1>
-      <p>Email: <a href="mailto:garigipati.vital@gmail.com">garigipati.vital@gmail.com</a></p>
-      <p>Phone: +91 9949899665</p>
-    </div>
-    <div class="scrolling-info">
-      <p>QA Automation Profile - Selenium, Java, Playwright, JavaScript, AI</p>
-    </div>
-    <div class="header-right">
-      <img src="IMG_9208.JPG" alt="Profile Photo" class="profile-photo">
     </div>
   </header>
 
   <!-- Tabs Navigation -->
   <div class="tabs">
     <button class="tablinks" onclick="openTab(event, 'career-overview')">Career Overview</button>
-    <button class="tablinks" onclick="openTab(event, 'technical-skills')">Technical Skills</button>
-    <button class="tablinks" onclick="openTab(event, 'professional-experience')">Professional Experience</button>
+    <button class="tablinks" onclick="openTab(event, 'technical-skills')">Technical Expertise</button>
+    <button class="tablinks" onclick="openTab(event, 'experience')">Professional Experience</button>
     <button class="tablinks" onclick="openTab(event, 'projects')">Projects</button>
     <button class="tablinks" onclick="openTab(event, 'education')">Education</button>
     <button class="tablinks" onclick="openTab(event, 'achievements')">Achievements</button>
@@ -40,137 +44,122 @@
   <section id="career-overview" class="tabcontent">
     <div class="container">
       <h2>Career Overview</h2>
-      <p>A highly skilled professional with over 9 years of expertise in Quality Assurance, Automation Testing, Web
-        Service Testing, API Testing, and Database Testing. Specializing in designing and implementing automation
-        frameworks using industry-leading tools such as Selenium, RFT, and Playwright, ensuring efficient, reliable, and
-        scalable solutions. Possesses extensive knowledge of the US Healthcare domain, enabling the development of
-        robust testing strategies that align with industry standards..</p>
-
+      <p>
+        A highly experienced Quality Assurance professional with over 9 years of expertise in automation testing,
+        specializing in Selenium with Java, Playwright with JavaScript, and RFT for functional testing. Proficient in
+        API and database testing, with a strong track record of developing and executing efficient test strategies to
+        ensure high-quality software delivery. Adept at streamlining the testing process and driving improvements in
+        automation frameworks, while ensuring seamless integration and system performance across diverse platforms
+      </p>
     </div>
   </section>
 
-  <!-- Technical Skills Section -->
+  <!-- Technical Expertise Section -->
   <section id="technical-skills" class="tabcontent">
     <div class="container">
-      <h2>Technical Skills</h2>
+      <h2>Technical Expertise</h2>
       <table>
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Skills</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Programming Languages</td>
-            <td>Core Java,Java Script</td>
-          </tr>
-          <tr>
-            <td>Web Automation Tools</td>
-            <td>Selenium WebDriver,PlayWright,RFT,TestNG</td>
-          </tr>
-          <tr>
-            <td>Frameworks</td>
-            <td>BDD Cucumber, Hybrid, Data Driven</td>
-          </tr>
-          <tr>
-            <td>Databases</td>
-            <td>Oracle 12 C</td>
-          </tr>
-          <tr>
-            <td>Web Services</td>
-            <td>SOAP, RESTful</td>
-          </tr>
-          <tr>
-            <td>Project Management Tools</td>
-            <td>RQM, VSTS, CA AGILE Central (Rally), RTC</td>
-          </tr>
-        </tbody>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Programming Languages</td>
+          <td>Core Java</td>
+        </tr>
+        <tr>
+          <td>Automation Tools</td>
+          <td>Selenium, RFT, Playwright</td>
+        </tr>
+        <tr>
+          <td>Frameworks</td>
+          <td>BDD, Hybrid, Data Driven</td>
+        </tr>
+        <tr>
+          <td>CI/CD Tools</td>
+          <td>Jenkins</td>
+        </tr>
+        <tr>
+          <td>Databases</td>
+          <td>Oracle 12 C</td>
+        </tr>
+        <tr>
+          <td>Web Services</td>
+          <td>SOAP, REST</td>
+        </tr>
       </table>
     </div>
   </section>
 
   <!-- Professional Experience Section -->
-  <section id="professional-experience" class="tabcontent">
+  <section id="experience" class="tabcontent">
     <div class="container">
       <h2>Professional Experience</h2>
       <table>
-        <thead>
-          <tr>
-            <th>Company Name</th>
-            <th>Role</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>TATA Consultancy Services</td>
-            <td>Assistant Consultant</td>
-            <td>June 2022 - Present</td>
-          </tr>
-          <tr>
-            <td>Optum Global Solution India Pvt Ltd</td>
-            <td>Software Engineer</td>
-            <td>February 2020 - June 2022</td>
-          </tr>
-          <tr>
-            <td>emids technologies</td>
-            <td>QA Engineer</td>
-            <td>August 2018 - February 2020</td>
-          </tr>
-          <tr>
-            <td>S2Tech.com.Ind Pvt. Ltd</td>
-            <td>Test Engineer</td>
-            <td>April 2015 - August 2018</td>
-          </tr>
-        </tbody>
+        <tr>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>TATA Consultancy Services</td>
+          <td>Assistant Consultant</td>
+          <td>June 2022 - Present</td>
+        </tr>
+        <tr>
+          <td>Optum Global Solution India Pvt Ltd</td>
+          <td>Software Engineer</td>
+          <td>Feb 2020 - June 2022</td>
+        </tr>
+        <tr>
+          <td>emids technologies</td>
+          <td>QA Engineer</td>
+          <td>Aug 2018 - Feb 2020</td>
+        </tr>
+        <tr>
+          <td>S2Tech.com.Ind Pvt. Ltd</td>
+          <td>Test Engineer</td>
+          <td>April 2015 - Aug 2018</td>
+        </tr>
       </table>
     </div>
   </section>
 
-
-  <!-- Project Summary Section -->
+  <!-- Projects Section -->
   <section id="projects" class="tabcontent">
     <div class="container">
-      <h2>Project Summary</h2>
+      <h2>Projects</h2>
       <table>
-        <thead>
-          <tr>
-            <th>Project Name</th>
-            <th>Client</th>
-            <th>Role</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Guided Personal Services (GPS)</td>
-            <td>UHG</td>
-            <td>QA Analyst</td>
-            <td>June 2022 – April 2023</td>
-          </tr>
-
-          <tr>
-            <td>Next Generation Policy System (GPS)</td>
-            <td>United Health Care Medicare & Retirement</td>
-            <td>SDET</td>
-            <td>February 2020 – June 2022</td>
-          </tr>
-
-          <tr>
-            <td>Safhire</td>
-            <td>Inovalon</td>
-            <td>Test Automation Engineer</td>
-            <td>August 2018 – February 2020</td>
-          </tr>
-
+        <tr>
+          <th>Project Name</th>
+          <th>Client</th>
+          <th>Role</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Guided Personal Services (GPS)</td>
+          <td>CVS</td>
+          <td>QA Analyst</td>
+          <td>June 2022 - April 2023</td>
+        </tr>
+        <tr>
+          <td>Next Generation Policy System</td>
+          <td>United Health Care</td>
+          <td>SDET</td>
+          <td>Feb 2020 - June 2022</td>
+        </tr>
+        <tr>
+          <td>Safhire</td>
+          <td>Inovalon</td>
+          <td>Test Automation Engineer</td>
+          <td>Aug 2018 - Feb 2020</td>
+        </tr>
+        <tr>
           <td>MEDS Modernization</td>
           <td>Conduent</td>
           <td>Functional Test Engineer</td>
-          <td>April 2015 – August 2018</td>
-          </tr>
-
-        </tbody>
+          <td>April 2015 - Aug 2018</td>
+        </tr>
       </table>
     </div>
   </section>
@@ -179,7 +168,7 @@
   <section id="education" class="tabcontent">
     <div class="container">
       <h2>Education</h2>
-      <p><strong>B Tech:</strong> Acharya Nagarjuna University, Guntur – April 2014</p>
+      <p><strong>B.Tech:</strong> Acharya Nagarjuna University, Guntur – April 2014</p>
     </div>
   </section>
 
@@ -188,8 +177,8 @@
     <div class="container">
       <h2>Achievements</h2>
       <ul>
-        <li>Awarded with Sapphire for Innovation and Performance from all counterparts.</li>
-        <li>Awarded with Star Award (Quarterly awards) for outstanding performance.</li>
+        <li>Awarded with Sapphire for Innovation and Performance.</li>
+        <li>Received Star Award for outstanding performance.</li>
         <li>Key contributor to achieve Team Excellence award for GPS project.</li>
       </ul>
     </div>
